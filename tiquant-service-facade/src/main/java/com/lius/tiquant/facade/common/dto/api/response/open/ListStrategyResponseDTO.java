@@ -11,4 +11,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class ListStrategyResponseDTO extends BaseListResponseDTO {
   private List<SimpleStrategyDTO> strategies;
+
+
 }

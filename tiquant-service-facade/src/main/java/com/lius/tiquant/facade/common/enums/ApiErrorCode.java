@@ -18,6 +18,10 @@ public enum ApiErrorCode {
    * 无权限
    */
   NO_PERMISSION("NoPermission.%s"),
+  /**
+   * 服务不可用
+   */
+  BACK_TEST_IS_RUNNING("BackTestIsRunning.%s"),
   ;
   private final String errorCodePattern;
   private final String errorMessage;

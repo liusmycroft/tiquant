@@ -14,6 +14,14 @@ public class BaseResponseDTO extends ToString {
   private String errorCode;
   private String errorMessage;
 
+  public static BaseResponseDTO ok(String requestId) {
+    BaseResponseDTO result = new BaseResponseDTO();
+    result.setRequestId(requestId);
+    result.setSuccess(true);
+    return result;
+  }
+
+  // 如果
   public static <T extends BaseResponseDTO> T ok(Class<T> clazz, String requestId) {
     T result = newInstance(clazz);
     result.setRequestId(requestId);

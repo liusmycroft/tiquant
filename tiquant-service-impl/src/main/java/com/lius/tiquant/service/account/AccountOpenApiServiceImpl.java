@@ -6,12 +6,12 @@ import com.lius.tiquant.facade.common.dto.api.request.open.CreateAccountRequestD
 import com.lius.tiquant.facade.common.dto.api.request.open.GetAccountRequestDTO;
 import com.lius.tiquant.facade.common.dto.api.request.open.ListAccountRequestDTO;
 import com.lius.tiquant.facade.common.dto.api.request.open.UpdateAccountRequestDTO;
+import com.lius.tiquant.facade.common.dto.api.response.open.GetAccountResponseDTO;
+import com.lius.tiquant.facade.common.dto.api.response.open.ListAccountResponseDTO;
 import com.lius.tiquant.facade.open.AccountOpenApiService;
 import io.vertx.core.AbstractVerticle;
 
 public class AccountOpenApiServiceImpl extends AbstractVerticle implements AccountOpenApiService {
-
-
 
   @Override
   public BaseResponseDTO createAccount(CreateAccountRequestDTO createAccountRequestDTO) {
@@ -19,12 +19,12 @@ public class AccountOpenApiServiceImpl extends AbstractVerticle implements Accou
   }
 
   @Override
-  public GetAccountRequestDTO describeAccount(GetAccountRequestDTO getAccountRequestDTO) {
+  public GetAccountResponseDTO describeAccount(GetAccountRequestDTO getAccountRequestDTO) {
     return null;
   }
 
   @Override
-  public ListAccountRequestDTO listAccount(ListAccountRequestDTO listAccountRequestDTO) {
+  public ListAccountResponseDTO listAccount(ListAccountRequestDTO listAccountRequestDTO) {
     return null;
   }
 

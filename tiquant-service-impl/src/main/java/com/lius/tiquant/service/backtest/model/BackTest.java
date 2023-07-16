@@ -1,19 +1,19 @@
-package com.lius.tiquant.facade.common.dto;
+package com.lius.tiquant.service.backtest.model;
 
-import java.util.Date;
-import java.util.List;
-
+import com.lius.tiquant.facade.common.enums.BackTestStatus;
 import lombok.Builder;
 import lombok.Data;
 
+import java.util.Date;
+
 @Data
 @Builder
-public class BackTestDTO {
+public class BackTest {
   private String id;
   private String name;
   private String strategyId;
   private String accountId;
   private Date startTime;
   private Date endTime;
-  private List<BackTestRecordDTO> backTestRecords;
+  private BackTestStatus backTestStatus;
 }

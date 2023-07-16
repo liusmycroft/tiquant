@@ -12,8 +12,6 @@ import lombok.EqualsAndHashCode;
 public class UpdateBackTestRequestDTO extends BaseRequestDTO {
   private String name;
   private String strategyId;
-  private String accountId;
   private Date startTime;
   private Date endTime;
-  private BackTestStatus backTestStatus;
 }
