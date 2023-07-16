@@ -1,4 +1,4 @@
-package com.lius.tiquant.service.biz.backtest.model;
+package com.lius.tiquant.service.backtest.model;
 
 import com.lius.tiquant.facade.common.enums.BackTestStatus;
 import lombok.Builder;

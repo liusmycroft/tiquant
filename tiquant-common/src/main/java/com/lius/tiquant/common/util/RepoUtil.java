@@ -32,7 +32,8 @@ public class RepoUtil {
       .setPassword(config.getString("password"));
 
     PoolOptions poolOptions = new PoolOptions()
-      .setMaxSize(5);
+      .setMaxSize(5)
+      .setShared(true);
     client = PgPool.pool(vertx, connectOptions, poolOptions);
   }
 
