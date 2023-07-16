@@ -39,21 +39,21 @@ public class DockerClientUtil {
     return DockerClientImpl.getInstance(config, httpClient);
   }
 
-  public CreateContainerResponse createContainer(DockerClient client, String containerName, String imageName) {
+  public static CreateContainerResponse createContainer(DockerClient client, String containerName, String imageName) {
     return client.createContainerCmd(imageName)
       .withName(containerName)
       .exec();
   }
 
-  public void startContainer(DockerClient client, String containerId) {
+  public static void startContainer(DockerClient client, String containerId) {
     client.startContainerCmd(containerId).exec();
   }
 
-  public void stopContainer(DockerClient client, String containerId) {
+  public static void stopContainer(DockerClient client, String containerId) {
     client.stopContainerCmd(containerId).exec();
   }
 
-  public void removeContainer(DockerClient client, String containerId) {
+  public static void removeContainer(DockerClient client, String containerId) {
     client.removeContainerCmd(containerId).exec();
   }
 

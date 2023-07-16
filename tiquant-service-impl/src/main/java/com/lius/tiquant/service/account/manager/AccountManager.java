@@ -1,6 +1,6 @@
-package com.lius.tiquant.service.account.manager;
+package com.lius.tiquant.service.biz.account.manager;
 
-import com.lius.tiquant.service.account.model.Account;
+import com.lius.tiquant.service.biz.account.model.Account;
 
 public interface AccountManager {
   Account getAccount(String accountId);

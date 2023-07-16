@@ -1,6 +1,10 @@
-package com.lius.tiquant.service.container.model;
+package com.lius.tiquant.service.biz.container.model;
+
+import javax.print.Doc;
 
 import com.github.dockerjava.api.DockerClient;
+import com.github.dockerjava.api.command.CreateContainerResponse;
+import com.lius.tiquant.common.util.DockerClientUtil;
 import lombok.Builder;
 import lombok.Data;
 
@@ -14,6 +18,7 @@ public class Container {
 
   public void run() {
     // 创建docker容器
+    CreateContainerResponse response = DockerClientUtil.createContainer(dockerClient, "i-xxx", "image-xxx");
 
     // 拷贝代码和依赖库到容器内，cp xxx xxx
     // 然后docker run xxx /bin/bash -c "python src/main.py"

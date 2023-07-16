@@ -1,4 +1,4 @@
-package com.lius.tiquant.service.account.dao;
+package com.lius.tiquant.service.biz.account.dao;
 
 public interface AccountDao {
 

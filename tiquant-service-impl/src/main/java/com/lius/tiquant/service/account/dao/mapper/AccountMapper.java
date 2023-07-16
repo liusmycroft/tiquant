@@ -1,4 +1,4 @@
-package com.lius.tiquant.service.account.dao.mapper;
+package com.lius.tiquant.service.biz.account.dao.mapper;
 
 import org.mapstruct.Mapper;
 

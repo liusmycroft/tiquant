@@ -1,6 +1,5 @@
-package com.lius.tiquant.service.backtest.model;
+package com.lius.tiquant.service.biz.backtest.model;
 
-import com.lius.tiquant.facade.common.dto.BackTestDTO;
 import com.lius.tiquant.facade.common.dto.BackTestRecordDTO;
 
 public class BackTestRecord {

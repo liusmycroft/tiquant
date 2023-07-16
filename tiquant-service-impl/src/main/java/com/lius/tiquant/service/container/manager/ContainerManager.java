@@ -1,6 +1,6 @@
-package com.lius.tiquant.service.container.manager;
+package com.lius.tiquant.service.biz.container.manager;
 
-import com.lius.tiquant.service.container.model.Container;
+import com.lius.tiquant.service.biz.container.model.Container;
 
 public interface ContainerManager {
   Container createInstance();

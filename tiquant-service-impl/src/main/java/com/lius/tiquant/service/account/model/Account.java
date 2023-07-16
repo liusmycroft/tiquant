@@ -1,4 +1,4 @@
-package com.lius.tiquant.service.account.model;
+package com.lius.tiquant.service.biz.account.model;
 
 public class Account {
 }

@@ -8,7 +8,7 @@ import com.lius.tiquant.facade.common.dto.api.request.open.ListStrategyRequestDT
 import com.lius.tiquant.facade.common.dto.api.request.open.UpdateStrategyRequestDTO;
 import com.lius.tiquant.facade.common.dto.api.response.open.GetStrategyResponseDTO;
 import com.lius.tiquant.facade.common.dto.api.response.open.ListStrategyResponseDTO;
-import com.lius.tiquant.facade.open.StrategyOpenApiService;
+import com.lius.tiquant.facade.api.open.StrategyOpenApiService;
 
 public class StrategyOpenApiServiceImpl implements StrategyOpenApiService {
 

@@ -1,4 +1,4 @@
-package com.lius.tiquant.facade.inner;
+package com.lius.tiquant.facade.api.inner;
 
 public interface StrategyInnerApiService {
 }

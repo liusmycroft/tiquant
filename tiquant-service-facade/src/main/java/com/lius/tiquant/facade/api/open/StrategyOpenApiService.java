@@ -1,4 +1,4 @@
-package com.lius.tiquant.facade.open;
+package com.lius.tiquant.facade.api.open;
 
 import com.lius.tiquant.facade.common.dto.api.BaseRequestDTO;
 import com.lius.tiquant.facade.common.dto.api.BaseResponseDTO;

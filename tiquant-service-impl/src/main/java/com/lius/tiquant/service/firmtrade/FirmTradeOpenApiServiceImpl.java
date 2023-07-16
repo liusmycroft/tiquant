@@ -8,7 +8,7 @@ import com.lius.tiquant.facade.common.dto.api.request.open.ListFirmTradeRequestD
 import com.lius.tiquant.facade.common.dto.api.request.open.UpdateFirmTradeRequestDTO;
 import com.lius.tiquant.facade.common.dto.api.response.open.GetFirmTradeResponseDTO;
 import com.lius.tiquant.facade.common.dto.api.response.open.ListFirmTradeResponseDTO;
-import com.lius.tiquant.facade.open.FirmTradeOpenApiService;
+import com.lius.tiquant.facade.api.open.FirmTradeOpenApiService;
 
 public class FirmTradeOpenApiServiceImpl implements FirmTradeOpenApiService {
   @Override

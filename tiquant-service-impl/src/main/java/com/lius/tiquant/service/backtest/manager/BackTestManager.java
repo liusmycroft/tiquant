@@ -1,6 +1,6 @@
-package com.lius.tiquant.service.backtest.manager;
+package com.lius.tiquant.service.biz.backtest.manager;
 
-import com.lius.tiquant.service.backtest.model.BackTest;
+import com.lius.tiquant.service.biz.backtest.model.BackTest;
 
 public interface BackTestManager {
   void saveBackTest(BackTest backTest);
